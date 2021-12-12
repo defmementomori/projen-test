@@ -19,7 +19,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
     "ts-jest",
     "typescript",
   ],
-  packageName: "@defmementomori/projen-test",
   npmAccess: NpmAccess.PUBLIC,
 });
 
