@@ -1,5 +1,5 @@
 {
-  "name": "@defmementomori/projen-test",
+  "name": "projen-test",
   "repository": {
     "type": "git",
     "url": "https://github.com/defmementomori/projen-test.git"
@@ -66,10 +66,7 @@
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
-  "publishConfig": {
-    "access": "PUBLIC"
-  },
-  "version": "2.0.0",
+  "version": "0.0.0",
   "jest": {
     "testMatch": [
       "**/__tests__/**/*.ts?(x)",
