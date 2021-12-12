@@ -61,6 +61,7 @@
   },
   "bundledDependencies": [],
   "keywords": [
+    "aws",
     "cdk"
   ],
   "main": "lib/index.js",
