@@ -1,4 +1,5 @@
-const { awscdk, NpmAccess } = require("projen");
+const { awscdk, NodePackageOptions } = require("projen");
+
 const project = new awscdk.AwsCdkConstructLibrary({
   author: "defmementomori",
   authorAddress: "defmementomori@gmail.com",
@@ -19,7 +20,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     "ts-jest",
     "typescript",
   ],
-  npmAccess: NpmAccess.PUBLIC,
+  npmAccess: "public",
 });
 
 project.synth();
