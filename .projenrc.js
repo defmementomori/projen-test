@@ -1,4 +1,4 @@
-const { awscdk } = require("projen");
+const { awscdk, NpmAccess } = require("projen");
 const project = new awscdk.AwsCdkConstructLibrary({
   author: "defmementomori",
   authorAddress: "defmementomori@gmail.com",
