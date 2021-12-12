@@ -2,39 +2,39 @@
 
 ## Constructs <a name="Constructs" id="constructs"></a>
 
-### AwsCdkOrganizationConfigrule <a name="@defmementomori/projen-test.AwsCdkOrganizationConfigrule" id="defmementomoriprojentestawscdkorganizationconfigrule"></a>
+### AwsCdkOrganizationConfigrule <a name="projen-test.AwsCdkOrganizationConfigrule" id="projentestawscdkorganizationconfigrule"></a>
 
-#### Initializers <a name="@defmementomori/projen-test.AwsCdkOrganizationConfigrule.Initializer" id="defmementomoriprojentestawscdkorganizationconfigruleinitializer"></a>
+#### Initializers <a name="projen-test.AwsCdkOrganizationConfigrule.Initializer" id="projentestawscdkorganizationconfigruleinitializer"></a>
 
 ```typescript
-import { AwsCdkOrganizationConfigrule } from '@defmementomori/projen-test'
+import { AwsCdkOrganizationConfigrule } from 'projen-test'
 
 new AwsCdkOrganizationConfigrule(scope: Construct, id: string, props: IAwsCdkOrganizationConfigruleProps)
 ```
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| [`scope`](#defmementomoriprojentestawscdkorganizationconfigruleparameterscope)<span title="Required">*</span> | [`constructs.Construct`](#constructs.Construct) | *No description.* |
-| [`id`](#defmementomoriprojentestawscdkorganizationconfigruleparameterid)<span title="Required">*</span> | `string` | *No description.* |
-| [`props`](#defmementomoriprojentestawscdkorganizationconfigruleparameterprops)<span title="Required">*</span> | [`@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps`](#@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps) | *No description.* |
+| [`scope`](#projentestawscdkorganizationconfigruleparameterscope)<span title="Required">*</span> | [`constructs.Construct`](#constructs.Construct) | *No description.* |
+| [`id`](#projentestawscdkorganizationconfigruleparameterid)<span title="Required">*</span> | `string` | *No description.* |
+| [`props`](#projentestawscdkorganizationconfigruleparameterprops)<span title="Required">*</span> | [`projen-test.IAwsCdkOrganizationConfigruleProps`](#projen-test.IAwsCdkOrganizationConfigruleProps) | *No description.* |
 
 ---
 
-##### `scope`<sup>Required</sup> <a name="@defmementomori/projen-test.AwsCdkOrganizationConfigrule.parameter.scope" id="defmementomoriprojentestawscdkorganizationconfigruleparameterscope"></a>
+##### `scope`<sup>Required</sup> <a name="projen-test.AwsCdkOrganizationConfigrule.parameter.scope" id="projentestawscdkorganizationconfigruleparameterscope"></a>
 
 - *Type:* [`constructs.Construct`](#constructs.Construct)
 
 ---
 
-##### `id`<sup>Required</sup> <a name="@defmementomori/projen-test.AwsCdkOrganizationConfigrule.parameter.id" id="defmementomoriprojentestawscdkorganizationconfigruleparameterid"></a>
+##### `id`<sup>Required</sup> <a name="projen-test.AwsCdkOrganizationConfigrule.parameter.id" id="projentestawscdkorganizationconfigruleparameterid"></a>
 
 - *Type:* `string`
 
 ---
 
-##### `props`<sup>Required</sup> <a name="@defmementomori/projen-test.AwsCdkOrganizationConfigrule.parameter.props" id="defmementomoriprojentestawscdkorganizationconfigruleparameterprops"></a>
+##### `props`<sup>Required</sup> <a name="projen-test.AwsCdkOrganizationConfigrule.parameter.props" id="projentestawscdkorganizationconfigruleparameterprops"></a>
 
-- *Type:* [`@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps`](#@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps)
+- *Type:* [`projen-test.IAwsCdkOrganizationConfigruleProps`](#projen-test.IAwsCdkOrganizationConfigruleProps)
 
 ---
 
@@ -46,22 +46,22 @@ new AwsCdkOrganizationConfigrule(scope: Construct, id: string, props: IAwsCdkOrg
 
 ## Protocols <a name="Protocols" id="protocols"></a>
 
-### IAwsCdkOrganizationConfigruleProps <a name="@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps" id="defmementomoriprojentestiawscdkorganizationconfigruleprops"></a>
+### IAwsCdkOrganizationConfigruleProps <a name="projen-test.IAwsCdkOrganizationConfigruleProps" id="projentestiawscdkorganizationconfigruleprops"></a>
 
-- *Implemented By:* [`@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps`](#@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps)
+- *Implemented By:* [`projen-test.IAwsCdkOrganizationConfigruleProps`](#projen-test.IAwsCdkOrganizationConfigruleProps)
 
 
 #### Properties <a name="Properties" id="properties"></a>
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| [`configRulesAll`](#defmementomoriprojentestiawscdkorganizationconfigrulepropspropertyconfigrulesall)<span title="Required">*</span> | `any`[] | *No description.* |
-| [`configExcludedAccounts`](#defmementomoriprojentestiawscdkorganizationconfigrulepropspropertyconfigexcludedaccounts) | `string`[] | *No description.* |
-| [`configRulesOnlyUsEast1`](#defmementomoriprojentestiawscdkorganizationconfigrulepropspropertyconfigrulesonlyuseast1) | `any`[] | *No description.* |
+| [`configRulesAll`](#projentestiawscdkorganizationconfigrulepropspropertyconfigrulesall)<span title="Required">*</span> | `any`[] | *No description.* |
+| [`configExcludedAccounts`](#projentestiawscdkorganizationconfigrulepropspropertyconfigexcludedaccounts) | `string`[] | *No description.* |
+| [`configRulesOnlyUsEast1`](#projentestiawscdkorganizationconfigrulepropspropertyconfigrulesonlyuseast1) | `any`[] | *No description.* |
 
 ---
 
-##### `configRulesAll`<sup>Required</sup> <a name="@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps.property.configRulesAll" id="defmementomoriprojentestiawscdkorganizationconfigrulepropspropertyconfigrulesall"></a>
+##### `configRulesAll`<sup>Required</sup> <a name="projen-test.IAwsCdkOrganizationConfigruleProps.property.configRulesAll" id="projentestiawscdkorganizationconfigrulepropspropertyconfigrulesall"></a>
 
 ```typescript
 public readonly configRulesAll: any[];
@@ -71,7 +71,7 @@ public readonly configRulesAll: any[];
 
 ---
 
-##### `configExcludedAccounts`<sup>Optional</sup> <a name="@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps.property.configExcludedAccounts" id="defmementomoriprojentestiawscdkorganizationconfigrulepropspropertyconfigexcludedaccounts"></a>
+##### `configExcludedAccounts`<sup>Optional</sup> <a name="projen-test.IAwsCdkOrganizationConfigruleProps.property.configExcludedAccounts" id="projentestiawscdkorganizationconfigrulepropspropertyconfigexcludedaccounts"></a>
 
 ```typescript
 public readonly configExcludedAccounts: string[];
@@ -81,7 +81,7 @@ public readonly configExcludedAccounts: string[];
 
 ---
 
-##### `configRulesOnlyUsEast1`<sup>Optional</sup> <a name="@defmementomori/projen-test.IAwsCdkOrganizationConfigruleProps.property.configRulesOnlyUsEast1" id="defmementomoriprojentestiawscdkorganizationconfigrulepropspropertyconfigrulesonlyuseast1"></a>
+##### `configRulesOnlyUsEast1`<sup>Optional</sup> <a name="projen-test.IAwsCdkOrganizationConfigruleProps.property.configRulesOnlyUsEast1" id="projentestiawscdkorganizationconfigrulepropspropertyconfigrulesonlyuseast1"></a>
 
 ```typescript
 public readonly configRulesOnlyUsEast1: any[];
