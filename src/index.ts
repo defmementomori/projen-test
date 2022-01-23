@@ -11,7 +11,7 @@ export class AwsCdkOrganizationConfigrule extends Construct {
   constructor(
     scope: Construct,
     id: string,
-    props: IAwsCdkOrganizationConfigruleProps
+    props: IAwsCdkOrganizationConfigruleProps,
   ) {
     super(scope, id);
 
@@ -35,7 +35,7 @@ export class AwsCdkOrganizationConfigrule extends Construct {
               ruleIdentifier: rule.ruleIdentifier,
               inputParameters: rule.inputParameters,
             },
-          }
+          },
         );
       } else {
         new config.CfnOrganizationConfigRule(
@@ -47,7 +47,7 @@ export class AwsCdkOrganizationConfigrule extends Construct {
             organizationManagedRuleMetadata: {
               ruleIdentifier: rule.ruleIdentifier,
             },
-          }
+          },
         );
       }
     });
