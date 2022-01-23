@@ -2,7 +2,6 @@ import { aws_config as config } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 
 export interface IAwsCdkOrganizationConfigruleProps {
-  // use any to avoid jsii build error
   configRulesAll: any[];
   configRulesOnlyUsEast1?: any[];
   configExcludedAccounts?: string[];
