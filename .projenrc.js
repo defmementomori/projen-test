@@ -11,6 +11,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   workflowNodeVersion: '^14.17.0',
   defaultReleaseBranch: 'main',
   repositoryUrl: 'https://github.com/defmementomori/projen-test.git',
+  deps: ['cdk-constants'] /* Runtime dependencies of this module. */,
   devDeps: [
     '@types/jest',
     '@types/node',
