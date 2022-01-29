@@ -42,6 +42,46 @@ new OrgConfigRules(scope: Construct, id: string, props: OrgConfigRulesProps)
 
 
 
+### OrgConfigToSecurityhub <a name="projen-test.OrgConfigToSecurityhub" id="projentestorgconfigtosecurityhub"></a>
+
+#### Initializers <a name="projen-test.OrgConfigToSecurityhub.Initializer" id="projentestorgconfigtosecurityhubinitializer"></a>
+
+```typescript
+import { OrgConfigToSecurityhub } from 'projen-test'
+
+new OrgConfigToSecurityhub(scope: Construct, id: string, props: Props)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| [`scope`](#projentestorgconfigtosecurityhubparameterscope)<span title="Required">*</span> | [`constructs.Construct`](#constructs.Construct) | *No description.* |
+| [`id`](#projentestorgconfigtosecurityhubparameterid)<span title="Required">*</span> | `string` | *No description.* |
+| [`props`](#projentestorgconfigtosecurityhubparameterprops)<span title="Required">*</span> | [`projen-test.Props`](#projen-test.Props) | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="projen-test.OrgConfigToSecurityhub.parameter.scope" id="projentestorgconfigtosecurityhubparameterscope"></a>
+
+- *Type:* [`constructs.Construct`](#constructs.Construct)
+
+---
+
+##### `id`<sup>Required</sup> <a name="projen-test.OrgConfigToSecurityhub.parameter.id" id="projentestorgconfigtosecurityhubparameterid"></a>
+
+- *Type:* `string`
+
+---
+
+##### `props`<sup>Required</sup> <a name="projen-test.OrgConfigToSecurityhub.parameter.props" id="projentestorgconfigtosecurityhubparameterprops"></a>
+
+- *Type:* [`projen-test.Props`](#projen-test.Props)
+
+---
+
+
+
+
+
 ### OrgEventStack <a name="projen-test.OrgEventStack" id="projentestorgeventstack"></a>
 
 #### Initializers <a name="projen-test.OrgEventStack.Initializer" id="projentestorgeventstackinitializer"></a>
@@ -307,6 +347,67 @@ public readonly snsTopic: Topic[];
 
 ```typescript
 public readonly workspaceId: string;
+```
+
+- *Type:* `string`
+
+---
+
+### Props <a name="projen-test.Props" id="projentestprops"></a>
+
+#### Initializer <a name="[object Object].Initializer" id="object-objectinitializer"></a>
+
+```typescript
+import { Props } from 'projen-test'
+
+const props: Props = { ... }
+```
+
+#### Properties <a name="Properties" id="properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| [`auditAccountId`](#projentestpropspropertyauditaccountid)<span title="Required">*</span> | `string` | *No description.* |
+| [`configurationAggregatorName`](#projentestpropspropertyconfigurationaggregatorname)<span title="Required">*</span> | `string` | *No description.* |
+| [`controlTowerHomeRegion`](#projentestpropspropertycontroltowerhomeregion)<span title="Required">*</span> | `string` | *No description.* |
+| [`snsTopicArn`](#projentestpropspropertysnstopicarn)<span title="Required">*</span> | `string` | *No description.* |
+
+---
+
+##### `auditAccountId`<sup>Required</sup> <a name="projen-test.Props.property.auditAccountId" id="projentestpropspropertyauditaccountid"></a>
+
+```typescript
+public readonly auditAccountId: string;
+```
+
+- *Type:* `string`
+
+---
+
+##### `configurationAggregatorName`<sup>Required</sup> <a name="projen-test.Props.property.configurationAggregatorName" id="projentestpropspropertyconfigurationaggregatorname"></a>
+
+```typescript
+public readonly configurationAggregatorName: string;
+```
+
+- *Type:* `string`
+
+---
+
+##### `controlTowerHomeRegion`<sup>Required</sup> <a name="projen-test.Props.property.controlTowerHomeRegion" id="projentestpropspropertycontroltowerhomeregion"></a>
+
+```typescript
+public readonly controlTowerHomeRegion: string;
+```
+
+- *Type:* `string`
+
+---
+
+##### `snsTopicArn`<sup>Required</sup> <a name="projen-test.Props.property.snsTopicArn" id="projentestpropspropertysnstopicarn"></a>
+
+```typescript
+public readonly snsTopicArn: string;
 ```
 
 - *Type:* `string`
